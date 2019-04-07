@@ -1,0 +1,29 @@
+{
+	"name": "aimeos/ai-fosuser",
+	"description": "Aimeos ai-fosuser extension",
+	"keywords": ["aimeos", "extension", "symfony", "friendsofsymfony", "user", "bundle"],
+	"homepage": "https://aimeos.org/",
+	"type": "aimeos-extension",
+	"license": "LGPL-3.0-or-later",
+	"support": {
+		"source": "https://github.com/aimeos/ai-fosuser",
+		"issues": "https://github.com/aimeos/ai-fosuser/issues",
+		"forum": "https://aimeos.org/help",
+		"wiki": "https://aimeos.org/docs"
+	},
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.3.3",
+		"composer/installers": "^1.0",
+		"aimeos/aimeos-core": "2018.10.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Aimeos\\MShop\\": "lib/mshoplib/src/MShop/"
+		},
+		"classmap": [
+			"lib/custom/src"
+		]
+	}
+}

@@ -1,0 +1,2 @@
+aimeos_shop:
+    resource: "@AimeosShopBundle/Resources/config/routing.yml"

@@ -1,0 +1,12 @@
+fos_user:
+    db_driver: orm # valid values are 'orm', 'mongodb' and 'couchdb'
+    # user_class: App\Entity\User
+    user_class: Aimeos\ShopBundle\Entity\FosUser
+    # firewall_name: main
+    firewall_name: aimeos_myaccount
+    service:
+        mailer: fos_user.mailer.noop
+    from_email:
+        address: "%env(MAILER_SENDER_ADDRESS)%"
+        sender_name: "%env(MAILER_SENDER_NAME)%"
+

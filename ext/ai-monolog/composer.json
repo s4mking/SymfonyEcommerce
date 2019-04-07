@@ -1,0 +1,30 @@
+{
+	"name": "aimeos/ai-monolog",
+	"description": "Monolog adapter for Aimeos web shops and e-commerce solutions",
+	"keywords": ["aimeos", "adapter", "monolog", "log", "shop", "e-commerce"],
+	"homepage": "https://aimeos.org/",
+	"type": "aimeos-extension",
+	"license": "LGPL-3.0-or-later",
+	"support": {
+		"source": "https://github.com/aimeos/ai-monolog",
+		"issues": "https://github.com/aimeos/ai-monolog/issues",
+		"forum": "https://aimeos.org/help",
+		"wiki": "https://aimeos.org/docs"
+	},
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.3.3",
+		"monolog/monolog": "~1.0",
+		"composer/installers": "^1.0",
+		"aimeos/aimeos-core": "2018.10.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Aimeos\\MW\\": "lib/custom/src/MW"
+		},
+		"classmap": [
+			"lib/custom/src"
+		]
+	}
+}

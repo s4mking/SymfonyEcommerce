@@ -1,0 +1,67 @@
+/**
+ * @license LGPLv3, http://opensource.org/licenses/LGPL-3.0
+ * @copyright Aimeos (aimeos.org), 2015-2018
+ */
+
+
+
+/* JQuery UI styles */
+
+#ui-datepicker-div {
+	z-index: 1040 !important;
+}
+
+.ai-combobox {
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	width: 100%;
+}
+
+.ai-combobox .ui-widget.ui-widget-content,
+.ai-combobox .ui-button {
+	border: none;
+    outline: 0;
+}
+
+.ai-combobox.form-control {
+	padding: 0;
+}
+
+.ai-combobox .ui-button-icons-only {
+	border-left: 1px solid #c5c5c5;
+	width: 2rem;
+}
+
+.ai-combobox-toggle {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.ai-combobox-input {
+	margin: 0;
+	padding: 8px 10px;
+	width: calc(100% - 2rem);
+}
+
+.ui-autocomplete.ui-menu {
+	max-height: 20rem;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background: #ffffff;
+	color: #464a4c;
+}
+
+.ui-state-default[readonly], .ui-widget-content .ui-state-default[readonly], .ui-widget-header .ui-state-default[readonly] {
+	background: #eceeef;
+}
+
+.ui-button[disabled] {
+	background: #ededed;
+}

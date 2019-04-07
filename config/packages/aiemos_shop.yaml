@@ -1,0 +1,14 @@
+aimeos_shop:
+    resource:
+        fs:
+            # baseurl: "https://symfonyecommerce.com/"
+            baseurl: "https://symfonyecommerce.com/"
+            basedir: "%kernel.root_dir%/../public"
+        fs-admin:
+            basedir: "%kernel.root_dir%/../public/uploads"
+    mshop:
+        customer:
+            manager:
+                name: FosUser
+                password:
+                    name: Bcrypt

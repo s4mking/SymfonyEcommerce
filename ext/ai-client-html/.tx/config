@@ -1,0 +1,15 @@
+[main]
+host = https://www.transifex.com
+minimum-perc = 1
+
+[aimeos-core.client]
+file_filter = client/i18n/<lang>.po
+source_file = client/i18n/core-client.pot
+source_lang = en
+type = PO
+
+[aimeos-core.client-code]
+file_filter = client/i18n/code/<lang>.po
+source_file = client/i18n/code/core-client-code.pot
+source_lang = en
+type = PO
