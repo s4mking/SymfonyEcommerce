@@ -228,8 +228,8 @@ switch( $this->param( 'act' ) )
 	<nav class="main-sidebar">
 		<div class="sidebar-wrapper">
 
-			<a class="logo" target="_blank" href="https://aimeos.org/update/?type=<?= $this->get( 'aimeosType' ) ?>&version=<?= $this->get( 'aimeosVersion' ) ?>">
-				<img src="https://aimeos.org/check/?type=<?= $this->get( 'aimeosType' ) ?>&version=<?= $this->get( 'aimeosVersion' ) ?>&extensions=<?= $this->get( 'aimeosExtensions' ) ?>" alt="Aimeos update" title="Aimeos update">
+			<a class="logo" target="_blank" href="http://google.fr">
+				<img src="https://www.mdi-editions.com/sites/default/files/styles/fiche_produit/public/ouvrage/3133090549559.JPG?itok=ZEq_B5eG" alt="Ulimi" title="Ulimi">
 			</a>
 
 			<ul class="sidebar-menu basic">
@@ -360,8 +360,8 @@ switch( $this->param( 'act' ) )
 						<?php endif; ?>
 					<?php endif; ?>
 				<?php endforeach; ?>
-
-				<?php if( $this->access( $this->config( 'admin/jqadm/resource/language/groups', [] ) ) ) : ?>
+				 <!-- if( $this->access( $this->config( 'admin/jqadm/resource/language/groups', [] ) ) ) : ?> -->
+				<?php if(0) : ?>
 					<li class="language treeview">
 						<span>
 							<i class="icon"></i>
